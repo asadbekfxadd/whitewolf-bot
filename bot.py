@@ -1,6 +1,7 @@
-import asyncio
+﻿import asyncio
 import logging
 from aiogram import Bot, Dispatcher
+from aiogram.fsm.storage.memory import MemoryStorage
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from config import config
 from scheduler import schedule_posts
@@ -19,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 async def main():
     bot = Bot(token=config.BOT_TOKEN)
-    dp = Dispatcher()
+    dp = Dispatcher(storage=MemoryStorage())
 
     dp.include_router(signal_router)
 
@@ -29,7 +30,7 @@ async def main():
 
     logger.info("🐺 White Wolf Bot запущен")
     logger.info(f"📢 Канал: {config.CHANNEL_ID}")
-    logger.info("💬 Команды: /signal /confirm /cancel /help")
+    logger.info("💬 Команды: /signal /calendar /cancel /help")
 
     try:
         await dp.start_polling(bot)
