@@ -1,0 +1,22 @@
+2026-06-22 15:10:34,096 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-22 15:10:34,097 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-22 15:10:34,097 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-22 15:10:34,098 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-22 15:10:34,098 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-22 15:10:34,098 [INFO] ✅ Планировщик: календарь 07:30 + 3 поста в день
+2026-06-22 15:10:34,101 [INFO] Added job "calendar_post" to job store "default"
+2026-06-22 15:10:34,103 [INFO] Added job "morning_post" to job store "default"
+2026-06-22 15:10:34,104 [INFO] Added job "morning_post" to job store "default"
+2026-06-22 15:10:34,104 [INFO] Added job "midday_post" to job store "default"
+2026-06-22 15:10:34,104 [INFO] Added job "evening_post" to job store "default"
+2026-06-22 15:10:34,104 [INFO] Scheduler started
+2026-06-22 15:10:34,105 [INFO] 🐺 White Wolf Bot запущен
+2026-06-22 15:10:34,105 [INFO] 📢 Канал: -1004446549800
+2026-06-22 15:10:34,105 [INFO] 💬 Команды: /signal /confirm /cancel /help
+2026-06-22 15:10:34,105 [INFO] Start polling
+2026-06-22 15:10:34,831 [INFO] Run polling for bot @whitewolf_vip_bot id=8992367525 - 'whitewolf_bot/'
+2026-06-22 15:10:56,115 [INFO] Update id=234151358 is handled. Duration 437 ms by bot id=8992367525
+2026-06-22 15:11:18,240 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-22 15:11:18,625 [INFO] Update id=234151359 is handled. Duration 5516 ms by bot id=8992367525
+2026-06-22 15:11:25,462 [INFO] ✅ Сигнал опубликован
+2026-06-22 15:11:25,462 [INFO] Update id=234151360 is handled. Duration 329 ms by bot id=8992367525
