@@ -46,8 +46,8 @@ async def main():
     bot = Bot(token=config.BOT_TOKEN)
     dp = Dispatcher(storage=MemoryStorage())
 
-    dp.include_router(signal_router)
     dp.include_router(post_router)
+    dp.include_router(signal_router)
 
     # ── Кнопки меню ───────────────────────────────────────────────────────────
 
